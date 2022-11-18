@@ -12,6 +12,7 @@ struct DrinkHeroApp: App {
     var body: some Scene {
         WindowGroup {
             LandingView()
+                .environmentObject(DrinkModel())
         }
     }
 }
