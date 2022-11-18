@@ -1,5 +1,5 @@
 //
-//  DrinkHeroApp.swift
+//  DrinkHero.swift
 //  DrinkHero
 //
 //  Created by Veer Singh on 11/18/22.
@@ -11,7 +11,7 @@ import SwiftUI
 struct DrinkHeroApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandingView()
         }
     }
 }
